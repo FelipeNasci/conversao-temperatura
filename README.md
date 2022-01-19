@@ -24,6 +24,6 @@ docker container run -d -p 8080:8080 your_usename/app_name:version
 
 #### Samples
 
-![](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/docker-image.PNG?raw=true)
-![](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/docker-contianer.PNG?raw=true)
-![](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/running-app.PNG?raw=true)
+![Docker image](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/docker-image.PNG?raw=true)
+![Docker container](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/docker-contianer.PNG?raw=true)
+![Application](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/running-app.PNG?raw=true)
