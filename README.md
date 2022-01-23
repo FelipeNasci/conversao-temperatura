@@ -35,3 +35,39 @@ docker container run -d -p 8080:8080 your_usename/app_name:version
 - Application
 
 ![Application](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/running-app.PNG?raw=true)
+
+
+## Challenge 2
+
+#### Kubernets Deploy
+
+- page
+
+![Kubernets Deploy](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/kubernets-deploy.PNG?raw=true)
+
+#### Setup
+
+- K3D
+
+```bash
+choco install k3d
+```
+
+- kubernetes-cli
+
+```bash
+choco install kubernetes-cli
+```
+
+#### Scripts
+
+- Create Cluster
+
+```bash
+k3d cluster create kube-cluster --servers 3 --agents 3 -p "8080:30000@loadbalancer"
+```
+- Run deployment
+
+```bash
+kubectl apply -f k8s/deployment.yaml
+```
