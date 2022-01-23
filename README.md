@@ -71,3 +71,13 @@ k3d cluster create kube-cluster --servers 3 --agents 3 -p "8080:30000@loadbalanc
 ```bash
 kubectl apply -f k8s/deployment.yaml
 ```
+
+
+## Challenge 3
+
+#### Kubernets Deploy
+
+- page
+
+![github-actions](https://github.com/FelipeNasci/conversao-temperatura/blob/main/images/github-actions.jpg?raw=true)
+
